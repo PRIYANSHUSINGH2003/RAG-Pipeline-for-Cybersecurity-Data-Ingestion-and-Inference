@@ -13,6 +13,15 @@ This repository implements a **Retrieval-Augmented Generation (RAG) pipeline** d
   - Common services between two hosts.
 - **Dynamic Updates:** The graph is built and updated with new data from MongoDB as it arrives.
 
+## Architecture Diagram
+Use draw.io to create an architecture diagram that showcases the relationships between:
+
+- **Host** and **Port** (HasPort relationship)
+- **Port** and **Service** (RunsService relationship)
+- **Service** and **Vulnerability** (HasVulnerability relationship)
+Include the diagram here as a link or embed it directly.
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/d188e5c7-c0a2-4c59-8a67-a79f1110b158)
+
 ## Installation
 
 ### Prerequisites
