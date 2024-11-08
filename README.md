@@ -44,19 +44,91 @@ The data structure for each entry in the MongoDB collection consists of the foll
 Example:
 
 ```json
-{
-  "hostname": "target1.example.com",
-  "port": 80,
-  "protocol": "TCP",
-  "service_name": "Apache HTTP Server",
-  "service_version": "2.4.41",
-  "vulnerabilities": [
-    {
-      "id": "CVE-2020-12345",
-      "description": "A vulnerability in Apache HTTP Server"
-    }
-  ]
-}
+[
+  {
+    "hostname": "target_host_01",
+    "port": 80,
+    "protocol": "TCP",
+    "service_name": "HTTP",
+    "service_version": "Apache 2.4",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2023-1234",
+        "description": "An example vulnerability found in Apache HTTP server version 2.4."
+      },
+      {
+        "id": "CVE-2022-XXXX",
+        "description": "A vulnerability that allows remote code execution in Apache HTTP server version 2.4."
+      }
+    ]
+  },
+  {
+    "hostname": "example_host2",
+    "port": 443,
+    "protocol": "TCP",
+    "service_name": "HTTPS",
+    "service_version": "Nginx 1.18",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2022-5678",
+        "description": "A vulnerability allowing SSL/TLS downgrade attacks in Nginx 1.18."
+      }
+    ]
+  },
+  {
+    "hostname": "example_host3",
+    "port": 22,
+    "protocol": "TCP",
+    "service_name": "SSH",
+    "service_version": "OpenSSH 7.9",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2021-12345",
+        "description": "An authentication bypass vulnerability in OpenSSH 7.9."
+      }
+    ]
+  },
+  {
+    "hostname": "example_host4",
+    "port": 3306,
+    "protocol": "TCP",
+    "service_name": "MySQL",
+    "service_version": "MySQL 5.7",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2020-1234",
+        "description": "A vulnerability allowing privilege escalation in MySQL 5.7."
+      }
+    ]
+  },
+  {
+    "hostname": "example_host5",
+    "port": 3389,
+    "protocol": "TCP",
+    "service_name": "RDP",
+    "service_version": "Microsoft RDP 10.0",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2021-34567",
+        "description": "A vulnerability allowing an attacker to execute arbitrary code via RDP in Microsoft RDP 10.0."
+      }
+    ]
+  },
+  {
+    "hostname": "example_host6",
+    "port": 8080,
+    "protocol": "TCP",
+    "service_name": "HTTP",
+    "service_version": "Apache Tomcat 9.0",
+    "vulnerabilities": [
+      {
+        "id": "CVE-2022-9876",
+        "description": "A vulnerability allowing unauthenticated access to Tomcat Manager in Apache Tomcat 9.0."
+      }
+    ]
+  }
+]
+
 ```
 
 ## Benchmarking and Performance Evaluation
