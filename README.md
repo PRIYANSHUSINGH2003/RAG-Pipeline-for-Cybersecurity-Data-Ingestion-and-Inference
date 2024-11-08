@@ -114,18 +114,15 @@ This graph shows the relationships between hosts and the ports they expose.
 
 ![Network of Hosts and Ports]![image](https://github.com/user-attachments/assets/0c389f3f-4bcc-4776-a20d-b644156d458b)
 
-
 ### Example Graph 2: Services Running on Hosts
 This graph illustrates which services are running on which hosts, helping to understand the attack surface of each system.
 
-![Services Running on Hosts]![image](https://github.com/user-attachments/assets/fe08b0ef-abcd-46fc-85b1-21bd37420348)
-
+![Services Running on Hosts]![image](https://github.com/user-attachments/assets/9ae5f355-5356-4202-b209-4a84c4150fb5)
 
 ### Example Graph 3: Vulnerabilities Associated with Services
 This graph shows the vulnerabilities linked to different services. It helps to identify potential security risks on a network.
 
-![Vulnerabilities Associated with Services]![image](https://github.com/user-attachments/assets/431f4fcb-d3f4-4312-a8be-edcd092e456a)
-
+![Vulnerabilities Associated with Services]![image](https://github.com/user-attachments/assets/c1417ae1-6803-402c-8943-2738ec078767)
 
 ## How It Works
 
