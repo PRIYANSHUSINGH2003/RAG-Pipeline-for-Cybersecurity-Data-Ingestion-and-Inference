@@ -112,17 +112,20 @@ Below are some example graphs constructed from the cybersecurity data. These gra
 ### Example Graph 1: Network of Hosts and Ports
 This graph shows the relationships between hosts and the ports they expose.
 
-![Network of Hosts and Ports](images/graph_hosts_ports.png)
+![Network of Hosts and Ports]![image](https://github.com/user-attachments/assets/0c389f3f-4bcc-4776-a20d-b644156d458b)
+
 
 ### Example Graph 2: Services Running on Hosts
 This graph illustrates which services are running on which hosts, helping to understand the attack surface of each system.
 
-![Services Running on Hosts](images/graph_services_hosts.png)
+![Services Running on Hosts]![image](https://github.com/user-attachments/assets/fe08b0ef-abcd-46fc-85b1-21bd37420348)
+
 
 ### Example Graph 3: Vulnerabilities Associated with Services
 This graph shows the vulnerabilities linked to different services. It helps to identify potential security risks on a network.
 
-![Vulnerabilities Associated with Services](images/graph_vulnerabilities.png)
+![Vulnerabilities Associated with Services]![image](https://github.com/user-attachments/assets/431f4fcb-d3f4-4312-a8be-edcd092e456a)
+
 
 ## How It Works
 
