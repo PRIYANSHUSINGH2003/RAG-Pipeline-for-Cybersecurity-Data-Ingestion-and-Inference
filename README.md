@@ -30,6 +30,7 @@ Include the diagram here as a link or embed it directly.
 - MongoDB Atlas or a local MongoDB instance
 - NetworkX library
 - pymongo library
+- SentenceTransformers library
 - Additional dependencies as specified in the `requirements.txt`
 
 ### Dependencies
@@ -205,6 +206,11 @@ This graph illustrates which services are running on which hosts, helping to und
 This graph shows the vulnerabilities linked to different services. It helps to identify potential security risks on a network.
 
 ![Vulnerabilities Associated with Services]![image](https://github.com/user-attachments/assets/c1417ae1-6803-402c-8943-2738ec078767)
+
+### Example Graph 4: Sample Queries and Output
+This graph shows the Demonstrate eexample queries processed by `get_context_for_query `, **"How strong is my security?" resulting in a high-level summary."** with results like:vulnerabilities linked to different services. It helps to identify potential security risks on a network.
+![image](https://github.com/user-attachments/assets/6bb48d32-960a-45f9-b4cc-76d867313aff)
+![image](https://github.com/user-attachments/assets/87dcc2f1-8784-4bcb-be30-b12cd4a3cc08)
 
 ## How It Works
 
