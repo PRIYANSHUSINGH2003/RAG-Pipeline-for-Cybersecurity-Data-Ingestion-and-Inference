@@ -209,6 +209,8 @@ This graph shows the vulnerabilities linked to different services. It helps to i
 
 ### Example Graph 4: Sample Queries and Output
 This graph shows the Demonstrate eexample queries processed by `get_context_for_query `, **"How strong is my security?"** resulting in a high-level summary with results like:vulnerabilities linked to different services. It helps to identify potential security risks on a network.
+
+![Sample Queries and Output]
 ![image](https://github.com/user-attachments/assets/6bb48d32-960a-45f9-b4cc-76d867313aff)
 ![image](https://github.com/user-attachments/assets/87dcc2f1-8784-4bcb-be30-b12cd4a3cc08)
 
