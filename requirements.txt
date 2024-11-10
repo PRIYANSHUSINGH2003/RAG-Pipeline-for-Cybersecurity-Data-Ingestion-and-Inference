@@ -3,3 +3,4 @@ langgraph
 pymongo
 neo4j
 weaviate-client
+SentenceTransformers
